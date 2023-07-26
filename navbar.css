@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    /* background-color: rgb(217, 230, 241); */
+    background-color: transparent;
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.nav-links{
+    margin-left: auto;
+    display: flex;
+    color: white;
+}
+.nav-links li{
+    margin-right: 2rem;
+}
+.logo{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.active{
+    color: rgb(240, 6, 68);
+    font-weight: 300;
+}
